@@ -1015,6 +1015,7 @@
 				PRODUCT_NAME = TestMobileAzure;
 				PROVISIONING_PROFILE = "44c9ce50-e0cf-4807-97f9-0a309c088c12";
 				PROVISIONING_PROFILE_SPECIFIER = "Test Mobile Azure";
+				TARGETED_DEVICE_FAMILY = 2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1037,6 +1038,7 @@
 				PRODUCT_NAME = TestMobileAzure;
 				PROVISIONING_PROFILE = "44c9ce50-e0cf-4807-97f9-0a309c088c12";
 				PROVISIONING_PROFILE_SPECIFIER = "Test Mobile Azure";
+				TARGETED_DEVICE_FAMILY = 2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
