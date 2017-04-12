@@ -7,7 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "code-push-cli": "^1.12.9-beta",
     "install": "^0.8.8",
     "npm": "^4.4.4",
     "react": "16.0.0-alpha.6",

@@ -13,10 +13,10 @@ import {
 } from 'react-native';
 import codePush from "react-native-code-push";
 
+let codePushOptions = {updateDialog: true, installMode: codePush.InstallMode.IMMEDIATE};
+
 export default class TestMobileAzure extends Component {
-    componentWillMount(){
-        codePush.sync({updateDialog: true, installMode: codePush.InstallMode.IMMEDIATE})
-    }
+
   render() {
     return (
       <View style={styles.container}>
@@ -53,5 +53,8 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+
+TestMobileAzure = codePush(codePushOptions)(TestMobileAzure);
 
 AppRegistry.registerComponent('TestMobileAzure', () => TestMobileAzure);
