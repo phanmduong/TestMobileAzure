@@ -11,8 +11,12 @@ import {
   Text,
   View
 } from 'react-native';
+import codePush from "react-native-code-push";
 
 export default class TestMobileAzure extends Component {
+    componentWillMount(){
+        codePush.sync({updateDialog: true, installMode: codePush.InstallMode.IMMEDIATE})
+    }
   render() {
     return (
       <View style={styles.container}>
