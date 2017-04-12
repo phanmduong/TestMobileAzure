@@ -21,7 +21,7 @@ export default class TestMobileAzure extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Phan M Duong
+          Phan M Duong Developer
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
